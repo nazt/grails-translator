@@ -37,7 +37,7 @@
     </script> 
   </head> 
   <body> 
-	Input : <input size = "100" type="text" id='input' value = 'Sukhumwit 21, Ari 21, Siam, siam paragon, Victory Monument'/> <img src='http://together.in.th/ajax/loading.gif' id='loading' /> <br \>
+	Input : <input size = "80" type="text" id='input' value = 'Sukhumwit 21, Ari 21, Siam, siam paragon, Victory Monument'/> <img src='http://together.in.th/ajax/loading.gif' id='loading' /> <br \>
 	<br \>	
     Output : <span id="translation"></span> 
   </body> 
