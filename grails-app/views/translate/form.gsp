@@ -1,5 +1,5 @@
 
-<g:form method="get" action="translate">
+<g:form method="get" action="go">
 	<input type="input" name="input"/>
 	<input type="submit" value="Translate">
 </g:form>
