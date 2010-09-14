@@ -7,7 +7,7 @@ class TranslateController {
     def index = { redirect(action: form) }
 	def go = {   
         Translate.setHttpReferrer('http://g-translator.appspot.com');
-        def translatedText = Translate.execute(params['roadname'], Language.ENGLISH, Language.THAI);
+        def translatedText = Translate.execute(params['input'], Language.ENGLISH, Language.THAI);
 		render(builder:"json") {
 			output(source:params['input'] ,translated:translatedText)
 		}
