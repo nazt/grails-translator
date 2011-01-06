@@ -5,7 +5,7 @@
     <title>Google AJAX Language API - Basic Translation</title> 
     <script type="text/javascript" src="http://www.google.com/jsapi"></script> 
     <script type="text/javascript"> 
-	google.load("jquery", "1.4.2"); 
+	  google.load("jquery", "1.4.2"); 
     google.load("language", "1");
  
     function initialize() {
@@ -21,7 +21,7 @@
 		};
 		jQuery(document).ready(function() {
 		    detection = function() {
-			    var	text = jQuery('#input').val(); 
+        var	text = jQuery('#input').val(); 
 				jQuery('#loading').show();
 				google.language.detect(text, function(result) {
 					if (!result.error && result.language) {
